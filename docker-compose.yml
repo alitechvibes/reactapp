@@ -1,4 +1,4 @@
-version: 'Sample'
+version: '6'
 services:
   web:
     build:
