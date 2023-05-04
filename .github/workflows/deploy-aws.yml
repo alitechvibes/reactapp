@@ -23,4 +23,4 @@ jobs:
         environment_name: Docker-react-env
         version_label: ${{ github.sha }}
         region: us-east-1
-        deployment_package: Sample.zip
+        deployment_package: deploy.zip
