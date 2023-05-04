@@ -21,6 +21,6 @@ jobs:
         aws_secret_key: ${{ secrets.AWS_SECRET_ACCESS_KEY_ID }}
         application_name: reactapp
         environment_name: Reactapp-env
-        version_label: ${{ github.sha }}
+        version_label: 1234
         region: us-east-1
         deployment_package: deploy.zip
